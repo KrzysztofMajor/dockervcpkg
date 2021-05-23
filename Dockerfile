@@ -12,6 +12,5 @@ RUN ./vcpkg install libwebsockets
 RUN ./vcpkg install RapidJSON
 RUN ./vcpkg install cxxopts
 RUN ./vcpkg install zlib
-RUN ./vcpkg install libmysql
 
 CMD ["bash"]
