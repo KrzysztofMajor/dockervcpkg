@@ -13,5 +13,6 @@ RUN ./vcpkg install RapidJSON
 RUN ./vcpkg install cxxopts
 RUN ./vcpkg install zlib
 RUN ./vcpkg install mongo-c-driver
+RUN ./vcpkg install libarchive
 
 CMD ["bash"]
